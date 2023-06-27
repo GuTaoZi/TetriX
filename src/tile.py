@@ -111,11 +111,11 @@ SHAPES_LIST = [SHAPE_S, SHAPE_Z, SHAPE_I, SHAPE_O, SHAPE_J, SHAPE_L, SHAPE_T]
 
 class Tetrix_tile:
     def __init__(self, column: int, row: int, shape: List[List]):
-        self.x = random.randint(1,column+1)
+        self.x = random.randint(1,column)
         self.y = row
         self.shape = shape
         self.color = SHAPE_COLORS[SHAPES_LIST.index(shape)]
-        self.rotation = random.randint(1,len(self.shape))-1
+        self.rotation = 0
 
     def get_formatted_shape(self):
         positions = list()
