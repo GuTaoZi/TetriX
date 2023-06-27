@@ -13,10 +13,6 @@ def main_game():
         keys = pygame.key.get_pressed()
         if keys[pygame.K_DOWN]:
             action = DOWN_KEY
-        # elif keys[pygame.K_RIGHT]:
-        #     action = RIGHT_KEY
-        # elif keys[pygame.K_LEFT]:
-        #     action = LEFT_KEY
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
