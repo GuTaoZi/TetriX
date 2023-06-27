@@ -8,10 +8,10 @@ Just in case of sitting idle during holidays :)
 
 ## TODOs
 
-- [ ] Backend
-- [ ] Frontend
-  - [ ] Game UI
-  - [ ] Element icons
+- [x] Backend
+- [x] Frontend
+  - [x] Game UI
+  - [x] Element icons
 - [ ] Bots
   - [ ] Brute Search
   - [ ] IDA\*
